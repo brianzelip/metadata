@@ -43,7 +43,7 @@ h1 {
   overflow: hidden;
 }
 
-h2 { font-size: 5rem; }
+h2 { font-size: 4.7rem; }
 h3 { font-size: 1.2rem }
 
 /* tablet ish */
@@ -113,7 +113,7 @@ header, #glossary h2, footer {
  * Header
  */
 header {
-  padding: 2rem 1rem;
+  padding: 2rem 0;
   min-height: 100%;
   background-color: #34495e;
   font-weight: 200;
