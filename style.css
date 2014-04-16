@@ -36,16 +36,23 @@ a:hover {
 }
 
 h1 {
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   color: #fff;
   font-variant: small-caps;
   text-shadow: 2px 2px 0 #3d566e;
   line-height: 1;
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
 
 h2 { font-size: 6rem; }
 h3 { font-size: 1.2rem }
+
+/* passing mobile portrait */
+@media only screen and (min-width: 400px) {
+  h1 {
+    margin-bottom: 1rem;
+  }
+}
 
 /* tablet ish */
 @media only screen and (min-width: 29rem) {
