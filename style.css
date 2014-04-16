@@ -42,13 +42,13 @@ h1 {
   font-size: 5rem;
 }
 
-h2 { font-size: 6rem; }
+h2 { font-size: 5rem; }
 h3 { font-size: 1.2rem }
 
 /* tablet ish */
 @media only screen and (min-width: 29rem) {
   h1 { font-size: 5.5rem; }
-  h2 { font-size: 7rem; }
+  h2 { font-size: 6rem; }
   h3 { font-size: 1.3rem }
 }
 
