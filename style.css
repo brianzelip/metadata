@@ -35,34 +35,49 @@ a:hover {
   text-decoration: underline;
 }
 
-h1, h2, {
-  margin: 0 0 .5rem;
-  font-weight: normal;
-  line-height: 1;
-  color: #2a2a2a;
-  letter-spacing: -.05em;
-}
 h1 {
   margin-bottom: 1rem;
-  font-size: 6rem;
   color: #fff;
   font-variant: small-caps;
   text-shadow: 2px 2px 0 #3d566e;
   line-height: 1;
+  font-size: 4rem;
 }
-h2 { font-size: 8rem; }
-h3 { font-size: 1.5rem}
+
+h2 { font-size: 6rem; }
+h3 { font-size: 1.2rem }
+
+/* tablet ish */
+@media only screen and (min-width: 29rem) {
+  h1 { font-size: 5rem; }
+  h2 { font-size: 7rem; }
+  h3 { font-size: 1.3rem }
+}
+
+
+/* desktop ish */
+@media (min-width: 920px) {
+  h1 { font-size: 6rem; }
+  h2 { font-size: 8rem; }
+  h3 { font-size: 1.5rem }
+}
 
 
 .lead, .byline {
   color: #fff;
-
 }
 
 .lead {
   font-size: 2rem;
   line-height: 1;
   margin-bottom: 1rem;
+}
+
+
+@media (min-width: 920px) {
+  .lead {
+    margin-bottom: 2rem;
+  }
 }
 
 .byline {
