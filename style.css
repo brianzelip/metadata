@@ -142,6 +142,7 @@ header {
  */
 #glossary {
   display: block;
+  padding: 0 1rem;
 }
 
 
@@ -160,12 +161,23 @@ dd {
   text-align: justify;
 }
 
+li:hover {
+  background-color: rgba(0,0,0,.3);
+}
 
 @media (min-width: 48em) {
-  #glossary ol li {
+  li {
     display: inline;
     float: left;
     width: 50%;
+  }
+  li:nth-child(odd) {
+    padding-left: 1rem;
+    padding-right: .5rem;
+  }
+  li:nth-child(even) {
+    padding-left: .5rem;
+    padding-right: 1rem;
   }
 }
 
