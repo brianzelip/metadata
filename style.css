@@ -37,7 +37,7 @@ a:hover {
 
 h1 {
   font-variant: small-caps;
-  text-shadow: 2px 2px 0 #3d566e;
+  text-shadow: -1px 1px 0 rgba(0,0,0,.5);
   line-height: 1;
   font-size: 5rem;
 }
@@ -76,12 +76,24 @@ h1, .lead, .byline {
 }
 
 blockquote {
-  padding: 1rem 3rem;
   font-size: 1.5rem;
-  background-image: url(img/leftQuote.svg), url(img/rightQuote.svg);
-  background-position: top left, bottom right;
+  max-width: 40rem;
+  margin: 0 auto;
+  /*background-image: url(img/leftQuote.svg), url(img/rightQuote.svg);
+  background-position: top left, 100% 97%;
   background-repeat: no-repeat, no-repeat;
-  background-size: auto 3rem, auto 3rem;
+  background-size: auto 3rem, auto 3rem;*/
+}
+
+blockquote p {
+  margin-bottom: 2rem;
+}
+
+/* Tighten up margin on last items */
+p:last-child,
+ul:last-child,
+blockquote:last-child{
+  margin-bottom: 0;
 }
 
 /* Sections
@@ -92,7 +104,7 @@ blockquote {
  */
 
 /* centered */
-header, #title, footer {
+header, #glossary, footer {
   text-align: center;
 }
 
@@ -100,7 +112,7 @@ header, #title, footer {
  * Header
  */
 header {
-  padding: 2rem 1rem 2.3rem 1rem;
+  padding: 2rem 1rem;
   min-height: 100%;
   background-color: #34495e;
   font-weight: 200;
@@ -112,16 +124,24 @@ header {
  */
 
 #context {
-  min-height: 100%;
-  padding: 3rem;
+  padding: 3rem 1rem;
+  background-color: #e8e8e8;
+}
+
+/* desktop ish */
+@media (min-width: 920px) {
+  #context {
+    min-height: 100%;
+    padding: 5rem;
+  }
 }
 
 
 /*
- * Title
+ * Glossary
  */
 
-#title {
+#glossary {
   min-height: 100%;
 }
 
@@ -137,5 +157,5 @@ footer {
 ================================================== */
 
 .close {
-  letter-spacing: -.2em;
+  letter-spacing: -.1em;
 }
