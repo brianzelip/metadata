@@ -36,27 +36,18 @@ a:hover {
 }
 
 h1 {
-  margin-bottom: 1rem;
-  color: #fff;
   font-variant: small-caps;
   text-shadow: 2px 2px 0 #3d566e;
   line-height: 1;
-  font-size: 4.5rem;
+  font-size: 5rem;
 }
 
 h2 { font-size: 6rem; }
 h3 { font-size: 1.2rem }
 
-/* silly mobile portrait */
-@media only screen and (max-width: 400px) {
-  h1 {
-    margin-bottom: 3rem;
-  }
-}
-
 /* tablet ish */
 @media only screen and (min-width: 29rem) {
-  h1 { font-size: 5rem; }
+  h1 { font-size: 5.5rem; }
   h2 { font-size: 7rem; }
   h3 { font-size: 1.3rem }
 }
@@ -69,26 +60,18 @@ h3 { font-size: 1.2rem }
   h3 { font-size: 1.5rem }
 }
 
-
-.lead, .byline {
+h1, .lead, .byline {
   color: #fff;
 }
 
 .lead {
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 1;
-  margin-bottom: 1rem;
-}
-
-
-@media (min-width: 920px) {
-  .lead {
-    margin-bottom: 2rem;
-  }
+  margin: 4rem 0;
 }
 
 .byline {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   line-height: 1.3;
 }
 
