@@ -48,7 +48,7 @@ h2 { font-size: 6rem; }
 h3 { font-size: 1.2rem }
 
 /* passing mobile portrait */
-@media only screen and (min-width: 420px) {
+@media only screen and (min-width: 520px) {
   h1 {
     margin-bottom: 1rem;
   }
