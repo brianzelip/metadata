@@ -29,10 +29,10 @@ body {
 
 a {
   color: #08c;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 h1 {
