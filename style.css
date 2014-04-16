@@ -136,6 +136,14 @@ header {
   }
 }
 
+/* big desktop ish */
+@media (min-width: 1500px) {
+  #context {
+    min-height: none;
+    padding: 5rem;
+  }
+}
+
 
 /*
  * Glossary
