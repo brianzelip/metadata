@@ -29,10 +29,10 @@ body {
 
 a {
   color: #08c;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 h1 {
@@ -104,7 +104,7 @@ blockquote:last-child{
  */
 
 /* centered */
-header, #glossary, footer {
+header, #glossary h2, footer {
   text-align: center;
 }
 
@@ -118,7 +118,6 @@ header {
   font-weight: 200;
 }
 
-
 /*
  * Context
  */
@@ -126,32 +125,49 @@ header {
 #context {
   padding: 3rem 1rem;
   background-color: #e8e8e8;
+  border-top: 4px solid #2b3c4e;
+  border-bottom: 4px solid #3a3a3a;
 }
 
 /* desktop ish */
 @media (min-width: 920px) {
   #context {
-    min-height: 100%;
     padding: 5rem;
   }
 }
-
-/* big desktop ish */
-@media (min-width: 1500px) {
-  #context {
-    height: auto;
-    padding: 5rem;
-  }
-}
-
 
 /*
  * Glossary
  */
-
 #glossary {
-  min-height: 100%;
+  display: block;
 }
+
+
+dl {
+  padding: 1rem;
+}
+
+dt + dt {
+  padding-left: 1rem;
+  text-indent: -1rem;
+}
+
+dd {
+  padding-left: 2rem;
+  text-indent: -1rem;
+  text-align: justify;
+}
+
+
+@media (min-width: 48em) {
+  #glossary ol li {
+    display: inline;
+    float: left;
+    width: 50%;
+  }
+}
+
 
 
 /*
@@ -159,10 +175,14 @@ header {
  */
 footer {
   font-size: 8rem;
+  clear: both;
 }
 
 /* Utilities
 ================================================== */
+.bold {
+  font-weight: 700;
+}
 
 .close {
   letter-spacing: -.1em;
