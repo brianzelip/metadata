@@ -1,4 +1,4 @@
 metadata
 ========
 
-Web presentation of Jenn Riley's 'Seeing Standards: A Visualization of the Metadata Universe' glossary. http://www.dlib.indiana.edu/~jenlrile/metadatamap/
+Web presentation of Jenn Riley's glossary for her [Seeing Standards: A Visualization of the Metadata Universe](http://www.dlib.indiana.edu/~jenlrile/metadatamap/) project. 
