@@ -100,7 +100,7 @@ header, #title, footer {
  * Header
  */
 header {
-  padding: 2rem 1rem;
+  padding: 2rem 1rem 2.3rem 1rem;
   min-height: 100%;
   background-color: #34495e;
   font-weight: 200;
