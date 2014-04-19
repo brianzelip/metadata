@@ -147,10 +147,11 @@ header {
 
 
 dl {
-  padding: 1rem;
+  padding: 2rem;
 }
 
-dt + dt {
+/* hanging indent styles */
+/*dt + dt {
   padding-left: 1rem;
   text-indent: -1rem;
 }
@@ -159,10 +160,19 @@ dd {
   padding-left: 2rem;
   text-indent: -1rem;
   text-align: justify;
+}*/
+
+dd {
+  text-align: justify;
+}
+
+dd + dd {
+  margin-top: 1rem;
 }
 
 li:hover {
-  background-color: rgba(0,0,0,.3);
+  background-color: rgba(0,0,0,.0);
+  box-shadow: 1px 2px 5px black;
 }
 
 @media (min-width: 48em) {
@@ -178,6 +188,10 @@ li:hover {
   li:nth-child(even) {
     padding-left: .5rem;
     padding-right: 1rem;
+  }
+  /* Hacks for li height--float issues */
+  li#AGLS {
+    margin-bottom: 3rem;
   }
 }
 
