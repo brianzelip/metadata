@@ -10,3 +10,10 @@ the metadata definition unit with associated animation/hover effect
 
 ?! Search funciton ?!
 
+2014-05-24: The glossary as an <ol> doesn't work because <li>s with less text can mess up the intended order of metadata descriptions. I implemented the ordered list approach as a way of minimizing the amount of markup in the document. But this doesn't work on all screens, so instead, I'm going to implement a grid-like system where the rows define the vertical height per pair of metadata standards, and the intended, alphabetical, order of standards will be maintained this way. Instead of one <ol> and one <li> per standard, now there will be one <div class="row"> for every two metadata standard <div>s. The <dl>, <dt>, <dd> elements will remain.
+
+
+There are many internal links to put <a href="">s onto, see for a good example, CDWA Lite.
+
+* STILL HAVE TO LOOK AT THE POSTER'S SMALL SET ABOVE THE GRAPHICS IN ORDER TO PLACE AN ASTERISK NEXT TO THOSE STANDARDS IN THE GLOSSARY*
+
