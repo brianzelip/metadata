@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton:200,300,400,700,800,400italic|PT+Mono">
+    <link rel="stylesheet" href="style.css">
+    <title>Glossary of metadata standards</title>
+    <meta name="description" content="">
+    <meta name="author" content="Brian Zelip">
+    <meta name="keywords" content="">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="http://brianzelip.github.io/metadata">
+    <meta property="og:image" content="http://">
+    <link rel="canonical" href="">
+  </head>
+
+  <body>
+    <header>
+      <h1>Glossary of<br>Metadata Standards</h1>
+      <p class="lead">An appendix to <a href="http://www.dlib.indiana.edu/~jenlrile/metadatamap/">Seeing Standards: A Visualization of the Metadata Universe</a></p>
+      <p class="byline">Content by <a href="http://jennriley.com">Jenn Riley</a></p>
+      <p class="byline">Print design by <a href="http://www.devinbecker.org/#bio">Devin Becker</a></p>
+      <p class="byline"><span class="close">W</span>eb design by <a href="http://zelip.me">Brian Zelip</a></p>
+    </header>
+
+    <section id="context">
+      <blockquote>
+        <p>The sheer number of metadata standards in the cultural heritage sector is overwhelming, and their inter-relationships further complicate the situation.</p>
+        <p>The 105 standards represented here are among those most heavily used or publicized in the cultural heritage community, though certainly not all standards that might be relevant are included.</p>
+        <p>A small set of the metadata standards listed below include an asterisk* next to their name. These represent the most commonly known or discussed standards for cultural heritage metadata.</p>
+      </blockquote>
+    </section>
+
+    <main id="glossary">
+      <h2>&lt;glossary&gt;</h2>
+
+      <div class="row">
+        <div class="standard" id="AACR2">
+          <dl>
+            <dt class="bold"><abbr title="Anglo-American Cataloging Rules, 2nd edition, Revised">AACR2</abbr></dt>
+            <dt><a href="http://www.aacr2.org/">Anglo-American Cataloging Rules, 2nd edition, Revised</a></dt>
+            <dd>AACR2 is the primary content standard used in the library field in the US, Canada, the UK, and Australia. Its use is almost exclusive to libraries, although there have been calls for the archives and museum communities to adopt it for the description of "bibliographic" types of materials. While primarily focused on descriptive metadata, instructions exist that cover technical, rights, and structural metadata as well. AACR2 is scheduled to be replaced by RDA.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="AAT">
+          <dl>
+            <dt class="bold"><abbr title="Art &amp; Architecture Thesaurus">AAT</abbr></dt>
+            <dt><a href="http://www.getty.edu/research/conducting_research/vocabularies/aat/">Art &amp; Architecture Thesaurus</a></dt>
+            <dd>The AAT is one of a suite of controlled vocabularies maintained by the Vocabulary Program at the Getty Research Institute in Los Angeles. It focuses on generic terms for the description of works of art, architecture, and material culture. The AAT is organized hierarchically within seven facets: associated concepts, physical proper- ties, styles and periods, agents, activities, materials, and objects. The vocabulary may be searched one term at a time freely on the web, and is available for license in bulk.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="ADL">
+          <dl>
+            <dt class="bold"><abbr title="Audio Decision List">ADL</abbr></dt>
+            <dt><a href="http://www.aes.org/publications/standards/">AES31-3-2008: AES standard for network and file transfer of audio - Audio-file transfer and exchange - Part 3: Simple project interchange (Audio Decision List)</a></dt>
+            <dd>The AES Audio Decision List (ADL) is a text-based file format and metadata standard for encoding the results of audio editing actions. The format records cuts, fades, the results of processing and filtering actions, and other edits to audio files made by a sound engineer. AES31-3 ADL support is included to some extent in audio editing software such as WaveLab and Pyramix.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="AEScore">
+          <dl>
+            <dt class="bold"><abbr title="Audio Engineering Society">AES</abbr> Core Audio<dt>
+            <dt><a href="http://www.aes.org/standards/meetings/project-status.cfm">AES-X098B: Descriptive metadata for audio objects - Core audio schema</a></dt>
+            <dd>The AES Core Audio schema (in draft as X098B) is part of the Audio Engineering Society's suite of standards for descriptive metadata for audio objects, although the AES uses the term "descriptive" differently than the library community does. The scope of the AES Core Audio standard is wide, including analog originals, digitally reformatted copies, and native digital recordings. The specification allows the capture of basic audio properties such as sample rate for digital files and groove width for physical discs. It also breaks audio objects down into "faces" (physical sides or directions for playback contiguously), "regions" (specific formats such as playing speed within a face), and "streams" (specific audio channels within a region). The AES Core Audio Schema and documentation are currently in draft status with no firm release date yet scheduled.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="AESprocess">
+          <dl>
+            <dt class="bold"><abbr title="Audio Engineering Society">AES</abbr> Process History</dt>
+            <dt><a href="http://www.aes.org/standards/meetings/project-status.cfm">AES-X098C: Administrative metadata for audio objects - Process history schema</a></dt>
+            <dd>The AES Process History standard is a data dictionary and XML Schema for recording information about processes that have been performed on an audio object over time. This includes but is not limited to transfer of audio between physical formats or from a physical format to a digital one. The standard provides elements to track extensive detail about device settings, signal chains, and even equipment serial numbers. AES-X098C is currently in draft status.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="AGLS">
+          <dl>
+            <dt class="bold"><abbr title="Australian Government Locator Service">AGLS</abbr></dt>
+            <dt><a href="http://www.naa.gov.au/records-management/create-capture-describe/ describe/AGLS/index.aspx">Australian Government Locator Service</a></dt>
+            <dd>AGLS is an Australian government metadata standard intended for the description of government resources on the Web. It uses DCMI Terms properties, to which it adds a few additional properties such as function and mandate. AGLS can be expressed either in HTML or RDF/XML. AGLS usage guidelines frequently suggest appropriate controlled vocabularies for specific properties.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="Atom">
+          <dl>
+            <dt class="bold">Atom</dt>
+            <dt><a href="http://tools.ietf.org/html/rfc4287">Atom Syndication Format</a></dt>
+            <dd>Atom is a syndication format for Web content in XML, allowing frequently updated information such as news feeds to be pushed to subscribed users. The most frequent use of Atom is to embedd an Atom-encoded news feed into an otherwise human-readable web page such as a news service or a blog.</dd>
+            <dd>The main alternative to Atom for syndicated content is RSS. Atom can also refer to a full Web publishing proto- col in addition to the syndication format.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="BISAC">
+          <dl>
+            <dt class="bold"><abbr title="Book Industry Standards and Communications">BISAC</abbr></dt>
+            <dt><a href="http://www.bisg.org/publications/product.php?p=14">Book Industry Standards and Communications</a></dt>
+            <dd>BISAC is a subject vocabulary for books created by the publishing industry, specifically the Book Industry Study Group (BISG). It is arranged hierarchically and includes codes as well as textual labels for entries. BISAC is com- monly used in bookstores, and has been seen in action in Google Book Search.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="CanCore">
+          <dl>
+            <dt class="bold">CanCore</dt>
+            <dt><a href="http://cancore.athabascau.ca/en/index.html">CanCore Metadata Initiative</a></dt>
+            <dd>CanCore is a set of guidelines for the implementation of the <a href="#IEEE-LOM">IEEE LOM</a> metadata standard. It arose from Canadian efforts on metadata for educational materials, and as such, its focus is on learning resources.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="CCO">
+          <dl>
+            <dt class="bold"><abbr title="Cataloging Cultural Objects">CCO</abbr></dt>
+            <dt><a href="http://www.vrafoundation.org/ccoweb/">Cataloging Cultural Objects</a></dt>
+            <dd>CCO is a content standard for the description of works of art, architecture, and material culture. It was developed in partnership between the Visual Resources Association and the Getty Foundation, and as such attempts to meet the needs of both the visual resources (frequently tied to libraries) and museum communities.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="CDWA">
+          <dl>
+            <dt class="bold"><abbr title="Categories for the Description of Works of Art">CDWA</abbr></dt>
+            <dt><a href="http://www.getty.edu/research/conducting_research/standards/cdwa/">Categories for the Description of Works of Art</a></dt>
+            <dd>CDWA is a long-standing metadata standard from the museum community designed as a framework for the description of works of art and material culture. It is an extensive set of descriptive elements, including 532 categories and subcategories. Usage guidelines distinguish between data elements intended for display and those intended for indexing. CDWA defines only category labels and definitions - it does not define a specific syntax for encoding them, although the CDWA guidelines suggest a relational structure providing for easy re-use of authority records. CDWA is commonly implemented in museum management software.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="CDWALite">
+          <dl>
+            <dt class="bold"><abbr title="Categories for the Description of Works of Art Lite">CDWA</abbr> Lite</dt>
+            <dt><a href="http://www.getty.edu/research/conducting_research/standards/cdwa/ cdwalite.html">Categories for the Description of Works of Art Lite</a></dt>
+            <dd>CDWA Lite is an XML representation of a subset of the full CDWA category set, explicitly designed for the sharing of descriptions of works of art and material culture via OAI-PMH. The OAICatMuseum OAI-PMH data provider software is designed to share CDWA Lite records in addition to Simple Dublin Core. There are ongoing efforts to harmonize CDWA Lite and MuseumDat into a new format called LIDO.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="CIDOC">
+          <dl>
+            <dt class="bold"><abbr title="CIDOC Conceptual Reference Model">CIDOC/CRM</abbr></dt>
+            <dt><a href="http://cidoc.ics.forth.gr/">CIDOC Conceptual Reference Model</a></dt>
+            <dd>CIDOC/CRM defines concepts and relationships essential for the description of cultural heritage materials. Beyond the traditional descriptive information about physical objects, CIDOC/CRM also focuses on space and time information, including modeling of events that affect the physical objects held by cultural heritage institutions. CIDOC/CRM is strongly allied with the museum community. In addition to a textual document intended for human implementers, CIDOC/CRM is defined in a formal OWL ontology and in RDF. The CIDOC/CRM has been standardized as ISO 21127:2006.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="CQL">
+          <dl>
+            <dt class="bold"><abbr title="Contextual Query Language">CQL</abbr></dt>
+            <dt><a href="http://www.loc.gov/standards/sru/specs/cql.html">Contextual Query Language</a></dt>
+            <dd>CQL is a query language for information systems maintained at the Library of Congress. It operates using the concept of "context sets," allowing implementers to create new indexes, operators, etc., but still maintain common query parsing rules. CQL can be implemented at various conformance levels, and implementations are required to return diagnostics when a query feature is not supported. CQL is the query language most com- monly used with the SRU search protocol. It attempts to be at once both simple and robust. The current version is 1.2, which represents a name change from Common Query Language in CQL 1.1.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="DACS">
+          <dl>
+            <dt class="bold"><abbr title="Describing Archives: A Content Standard">DACS</abbr></dt>
+            <dt><a href="http://www.archivists.org/governance/standards/dacs.asp">Describing Archives: A Content Standard</a></dt>
+            <dd>DACS is a product and publication of the Society of American Archivists, and thus reflects the descriptive priorities of the archival community. It replaces the older Archives, Personal Papers, and Manuscripts (APPM) content standard. It primarily focuses on the description of personal papers and institutional records. DACS is generally used in a multi-level description environment although it is possible to apply it for item-level description as well.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="DC">
+          <dl>
+            <dt class="bold"><abbr title="Dublin Core Metadata Element Set">DC</abbr></dt>
+            <dt><a href="http://www.dublincore.org/documents/dces/">Dublin Core Metadata Element Set</a></dt>
+            <dd>Dublin Core is a widely misunderstood metadata stan- dard. The Dublin Core Metadata Element Set (DC- MES) is also known as Simple Dublin Core. Simple Dublin Core is a basic 15-element set designed to represent core features across all resource formats. It is standardized as ISO 15836-2003, ANSI/NISO Z39.85- 2007, and IETF RFC 5013. The Dublin Core Usage Guidelines sometimes suggest (but do not require) specific content guidelines or controlled vocabularies. Simple Dublin Core is widely known as the baseline metadata format required for all resources shared via OAI-PMH. Encoding of the DCMES in HTML <code>&lt;meta&gt;</code> tags was popular in the early days of search engines, but today most search engines prefer to weigh page text and linking patterns more heavily then page creator-supplied structured metadata.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="DCAM">
+          <dl>
+            <dt class="bold"><abbr title="Dublin Core Metadata Initiative Abstract Model">DCAM</abbr></dt>
+            <dt><a href="http://dublincore.org/documents/abstract-model/">Dublin Core Metadata Initiative Abstract Model</a></dt>
+            <dd>The DCMI Abstract Model is a framework for the com- ponents of resource description and how they relate to one another. The structure of the DCAM is very similar to and inspired by the RDF model. The full model has three main sub-parts: the DCMI Resource Model, the DCMI Description Set Model, and the DCMI Vocabulary Model. These three work together to allow robust semantic relationships to be recorded between resources. The DCAM is a far cry from the 15 element set of simple Dublin Core that is familiar to many in the cultural heritage community, and represents a different and more robust approach to resource description. The DCAM is significantly more complex than the original simple Dublin Core, but offers a corresponding significant improvement in functionality and re-usability. Encodings of Dublin Core metadata in HTML, XML, and RDF all implement different subsets of the full DCAM.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="DDC">
+          <dl>
+            <dt class="bold"><abbr title="Dewey Decimal Classification">DDC</abbr></dt>
+            <dt><a href="http://www.oclc.org/dewey/">Dewey Decimal Classification</a></dt>
+            <dd>The Dewey Decimal Classification is primarily used in public libraries, and is currently in its 22nd edition. Dewey divides knowledge into 10 primary classes, with further subdivisions possible in multiples of 10. A process of "number building" is used to read the Dewey schedules and construct a potentially long number combining different intellectual aspects of a resource.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="DIF">
+          <dl>
+            <dt class="bold"><abbr title="Discovery Interchange Format">DIF</abbr></dt>
+            <dt><a href="http://gcmd.nasa.gov/User/difguide/difman.html">Discovery Interchange Format</a></dt>
+            <dd>DIF is an early metadata initiative from the Earth scienc- es community, intended for the description of scientific data sets. It inlcudes elements focusing on instruments that capture data, temporal and spatial characteristics of the data, and projects with which the dataset is as- sociated. It is defined as a W3C XML Schema. DIF is fully compatible with the ISO 19115/TC211 geospatial metadata standard by providing places for elements from that standard.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="DIG35">
+          <dl>
+            <dt class="bold"><abbr title="Digital Imaging Group 35">DIG35</abbr></dt>
+            <dt><a href="http://www.i3a.org/technologies/metadata/">Digital Imaging Group 35</a></dt>
+            <dd>DIG35 is a metadata format for still images that grew out of industry work, specifically from the International Imaging Industry Association (I3A). DIG35 is divided into five blocks: basic image parameter metadata, image creation metadata, content description metadata, history metadata, and intellectual property rights metadata. DIG35 is defined primarily as a human-readable data dictionary, but a W3C XML Schema is also available.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="DTD">
+          <dl>
+            <dt class="bold"><abbr title="Document Type Definition">DTD</abbr></dt>
+            <dt><a href="http://xmlfiles.com/dtd/">Document Type Definition</a></dt>
+            <dd>DTDs are mechanisms for defining XML languages, and serve as an alternative to W3C XML Schema and RelaxNG for this purpose. The DTD language dates back to SGML, but currently is also used for XML applications. DTD syntax is significantly simpler than W3C XML Schema, but lacks some more advanced functionality, such as strong data typing of element or attribute content.</dd>
+          </dl>
+        </div>
+          <div class="standard" id="DwC">
+          <dl>
+            <dt class="bold"><abbr title="Darwin Core">DwC</abbr></dt>
+            <dt><a href="http://www.tdwg.org/activities/darwincore/">Darwin Core</a></dt>
+            <dd>Darwin Core is a "concept list" defining categories of information useful for the description of biological data - specifically, where organisms and species exist in time and space. The specification exists as a textual representation of the defined concepts and as an XML Schema. Darwin Core also provides extensions for curatorial, geospatial, paleontological, and interaction information. Darwin Core is managed under the auspices of Biodiversity Information Standards, a nonprofit devoted to promoting the sharing of biodiversity data.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="EAC-CPF">
+          <dl>
+            <dt class="bold"><abbr title="Encoded Archival Context - Corporate Bodies, Persons, and Families">EAC-CPF</abbr></dt>
+            <dt><a href="http://eac.staatsbibliothek-berlin.de/">Encoded Archival Context - Corporate Bodies, Persons, and Families</a></dt>
+            <dd>EAC-CPF is an XML representation of data about corporate bodies, persons, and families conformant to the model presented in the ISAAR (CPF) specification. In contrast to traditional library authority records for these entities that exist primarily to establish and justify controlled headings, EAC-CPF reflects its roots in archival description by focusing more on the context in which these entities operate. While EAC-CPF has a long development history, a significantly revised version was released in 2010, and as of yet the companion EAD standard has not had the opportunity to evolve to allow the two to be used in concert more effectively. EAC- CPF is maintained by the Society of American Archivists in partnership with the Berlin State Library.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="EAD">
+          <dl>
+            <dt class="bold"><abbr title="Encoded Archival Description">EAD</abbr></dt>
+            <dt><a href="http://www.loc.gov/ead/">Encoded Archival Description</a></dt>
+            <dd>EAD is a markup language for archival finding aids. It provides XML elements for strucutral and presentational data typically found in finding aid documents. While EAD is a markup language in the sense that it "flags" data structures as they appear in a pre-existing text, it is also the primary source of (semi-)structured descriptive metadata in archives.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="EML">
+          <dl>
+            <dt class="bold"><abbr title="Ecological Markup Language">EML</abbr></dt>
+            <dt><a href="http://knb.ecoinformatics.org/software/eml/eml-2.0.1/">Ecological Markup Language</a></dt>
+            <dd>EML grew out of early metadata efforts from the Ecological Society of America. It is an extremely detailed specification that is intended to support the description of any type of ecological information, including raw data, published research papers, rights information, and research protocols. EML is defined as a series of W3C XML Schemas, and can wrap data packages together with metadata. At the highest level, EML models four primary entities: datasets, literature, software, and protocols, although not all are always applicable or are required for use.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="FGDC-CSDGM">
+          <dl>
+            <dt class="bold"><abbr title="Federal Geographic Data Committee Content Standard for Digital Geospatial Metadata">FGDC/CSDGM</abbr></dt>
+            <dt><a href="http://www.fgdc.gov/standards/projects/FGDC-standards-projects/ metadata/base-metadata/index_html">Federal Geographic Data Committee Content Standard for Digital Geospatial Metadata</a></dt>
+            <dd>The standard commonly referred to as FGDC (although FGDC is the maintenance agency, and CSDGM is the actual element set) is a large and early metadata standard for geospatial information created by agencies of the US federal government. The FGDC web site describes the scope of this standard as to allow users to "determine the availability of a set of geospatial data, to determine the fitness [of] the set of geospatial data for an intended use, to determine the means of accessing the set of geospatial data, and to successfully transfer the set of geospatial data."</dd>
+            <dd>The current production version of FGDC is 2.0, from 1998. Since this time, an international standard for geospatial information (ISO 19115) has emerged. Plans have been announced to create a US national geospatial metadata standard as a profile of ISO 19115, and to create version 3.0 of CSDGM as an implementation of that. This work has not yet been finalized.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="FOAF">
+          <dl>
+            <dt class="bold"><abbr title="Friend of a Friend">FOAF</abbr></dt>
+            <dt><a href="http://www.foaf-project.org/">Friend of a Friend</a></dt>
+            <dd>FOAF is an RDF syntax for describing people, intended to be used on the Semantic Web. It includes features for encoding names, email addresses, personal interests, home pages, and various online identities. Although the language is focused on people, encoding traditional library authority files in FOAF is challenging due to its assumption that each individual has only one FOAF identity and its focus on online presence for current living persons.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="FRAD">
+          <dl>
+            <dt class="bold"><abbr title="Functional Requirements for Authority Data">FRAD</abbr></dt>
+            <dt><a href="http://www.ifla.org/publications/ifla-series-on-bibliographic-control-34">Functional Requirements for Authority Data</a></dt>
+            <dd>FRAD is a companion document to the earlier FRBR conceptual model developed by IFLA. FRAD expands on FRBR by adding additional attributes to each of the Group 1, 2, and 3 entities; adding a new Group 2 entity (Family); and adding new entities intended to support the authority control process (Name, Identifier, Controlled Access Point, Rules, and Agency). Perhaps the strongest promise of the FRAD model is support for multi-lingual catalogs that can display to a user differ- ent forms of names for various entities depending on a user's location or language preferences.</dd>
+            <dd>In addition to expanded entities and attributes, FRAD defines a different set of user tasks for authority data than FRBR did for bibliographic data. Here, the user tasks are Find, Identify, Contextualize, and Justify. The final FRAD report was published by IFLA in 2009.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="FRBR">
+          <dl>
+            <dt class="bold"><abbr title="Functional Requirements for Bibliographic Records">FRBR</abbr></dt>
+            <dt><a href="http://www.ifla.org/en/publications/functional-requirements-for-bibliographic-records">Functional Requirements for Bibliographic Records</a></dt>
+            <dd>FRBR is a 1998 conceptual model of the biliographic universe, created in order to better understand the user tasks catalogs can and should support, and to suggest how bibliographic data might be viewed in support of these tasks. The most commonly known features of the FRBR report are its four user tasks (Find, Identify, Select, and Obtain) and the Group 1 Entities which cat- egorize the products of intellectual and artistic endeavors (Work, Expression, Manifestation, and Item). The FRBR report has other features as well, including Group 2 Entities representing the creators of Group 1 Entities (Person and Corporate Body), Group 3 Entities which are the subjects of Works (Group 1 Entities, Group 2 Entities, plus Concept, Object, Event, and Place), and minimal standards for national bibliographic records.</dd>
+            <dd>The FRBR conceptual model has received a great deal of discussion in the cultural heritage community, but only in the very late 2000s have concrete implementations of the conceptual model into working systems begun to appear.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="FRSAD">
+          <dl>
+            <dt class="bold"><abbr title="Functional Requirements for Subject Authority Data">FRSAD</abbr></dt>
+            <dt><a href="http://www.ifla.org/node/1297">Functional Requirements for Subject Authority Data</a></dt>
+            <dd>The FRSAD initiative is intended to provide a more complete conceptual model for FRBR Group 3 entities in their role serving as the subjects of FRBR Works. A draft of FRSAD for public comment was issued in early 2009. This draft abandoned the FRBR Group 3 entity structure (Concept, Object, Event, Place) in favor of conceptual entities (Thema) that are known by name tokens (Nomen).</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="GEM">
+          <dl>
+            <dt class="bold"><abbr title="Gateway to Educational Materials">GEM</abbr></dt>
+            <dt><a href="http://www.thegateway.org/about/documentation2/schemas/index_ html/">Gateway to Educational Materials</a></dt>
+            <dd>GEM is an RDF metadata vocabulary designed for the description of educational resources. The GEM model includes all the properties available in DCMI Terms, to which are added education-specific properties such as educational standards and pedagogical methods. The current version of GEM is 2.0.</dd>
+            <dd>GEM has also created a number of controlled vocabularies, including lists for audience level, assessment methods and instruments, and resource type. GEM Consortium members have access to the GemCat metadata creation tool, which produces GEM-compliant metadata.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="GILS">
+          <dl>
+            <dt class="bold"><abbr title="Government Information Locator Service">GILS</abbr></dt>
+            <dt><a href="http://www.opengeospatial.org/standards/gml">Government Information Locator Service</a></dt>
+            <dd>GML is an element set intended for the description of geographic information, as well as providing for the creation of application schemas for more specific uses of GML. The GML schema is extremely detailed in its ability to describe sppatial and temporal features, topologies, and observation methods. GML is written in W3C XML Schema language, and is standardized as ISO 19136:2007.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="ID3">
+          <dl>
+            <dt class="bold">ID3</dt>
+            <dt><a href="http://www.id3.org/">ID3 Tags</a></dt>
+            <dd>ID3 tags are data stored inside an MP3 audio file to assist with the identification of the content on the file. ID3v2 includes a number of predefined "frames" (essentially, fields) for use, including Album title, Composer, Date of recording, Original artist(s)/performer(s), and File owner/licensee. Images and other content files can also be embedded inside the ID3 chunk. ID3v2 also allows for user-defined frames. Most audio players, such as iTunes and Windows Media Player, can display ID3 tags to users and allow them to be edited.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="IEEE-LOM">
+          <dl>
+            <dt class="bold"><abbr title="Institute of Electrical and Electronics Engineers Learning Object Metadata">IEEE/LOM</abbr></dt>
+            <dt><a href="http://ltsc.ieee.org/wg12/">Learning Object Metadata</a></dt>
+            <dd>The LOM standard is a "conceptual data schema" for the description of learning objects (by a broad definition of the term). LOM was developed and formalized through the IEEE and their Learning Technology Standards Committee. The stated purpose of LOM is to "facilitate search, evaluation, acquisition, and use of learning objects, for instance by learners or instructors or automat- ed software processes." LOM data elements are grouped into nine categories: general, lifecycle, meta-metadata, technical, educational, rights, relation, annotation, and classification.</dd>
+            <dd>In addition to the conceptual data schema outlined in LOM documentation, a binding of the LOM model to XML has been creteated, and expressed in XML Schema language. Following the development of the DCMI Abstract Model, efforts have commenced to harmonize IEEE/LOM with this model.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="indecs">
+          <dl>
+            <dt class="bold"><abbr title="&lt;indecs&gt; Metadata Framework">indecs</abbr></dt>
+            <dt><a href="http://www.doi.org/topics/indecs/indecs_framework_2000.pdf">indecs</a> (pdf)</dt>
+            <dd>&lt;indecs&gt; describes itself as a "model of commerce," operating under a simple basic premise: "People make stuff. People use stuff. People do deals about stuff." The basic entities of &lt;indecs&gt; are as follows: Entities (something interesting) break down into Percepts (things percieved) which are further broken down into Beings and Things, Relations which are further broken down into Events and Situations, and Concepts.</dd>
+            <dd>&lt;indecs&gt; shares many common features with the FRBR model, but is different in that it focuses heavily on events that act on entities over time, an area FRBR avoids completely. While &lt;indecs&gt; defines a robust conceptual model, it is unclear if many systems in either the cultural heritage or business communities have built systems that implement all or part of the model.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="ISAAR-CPF">
+          <dl>
+            <dt class="bold"><abbr title="International Standard Archival Authority Record for Corporate Bodies, Persons and Families">ISAAR(CPF)</abbr></dt>
+            <dt><a href="http://www.icacds.org.uk/eng/isaar2ndedn-e_3_1.pdf">International Standard Archival Authority Record for Corporate Bodies, Persons and Families</a> (pdf)</dt>
+            <dd>ISAAR(CPF) is a descriptive metadata model for contextual information in archives, covering the descriptions of corporate bodies, persons, and families; construction of access points for these entities; and documenting relationships among them, and between them and resources. The standard is intended to promote the sharing of archival authority records between institutions. Like the IDBD, ISAAR(CPF) is divided into several areas of description: identity, description, relationships, and control.</dd>
+            <dd>The first edition of ISAAR(CPF) was published in 1996, and the second edition was published in 2004. ISAAR(CPF) is intended to be used with ISAD(G) for resource description. The EAC structure standard for archival authority data is intended to support the encoding of ISAAR(CPF)-compliant records.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="ISAD-G">
+          <dl>
+            <dt class="bold"><abbr title="International Standard Archival Description (General)">ISAD(G)</abbr></dt>
+            <dt><a href="http://www.ica.org/en/node/30000">International Standard Archival Description (General)</a></dt>
+            <dd>ISAD(G) is a statement of general principles for archival description, throughout the archival management process, and applicable to any type of material controlled archivally regardless of format or media type. ISAD(G) defines 26 elements of archival description, and defers to national or local rules for the structure of the values of those elements. The definitions of the archival description elements presented in ISAD(G) conform to the archival principle of respect des fonds and are structured to allow multi-level description. Like ISBD, ISAD(G) is organized into "areas" of description. These are: Identity Statement, Context, Content and Structure, Condition of Access and Use, Allied Materials, Note, and Description Control Areas.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="ISBD">
+          <dl>
+            <dt class="bold"><abbr title="International Standard Bibliographic Description">ISBD</abbr></dt>
+            <dt><a href="http://www.ifla.org/publications/international-standard-bibliographic- description">International Standard Bibliographic Description</a></dt>
+            <dd>ISBD is a standard from IFLA designed to make bibliographic description more consistent across a wide range of applications. It serves two distinct functions: to define the selection and order of data elements to be re- corded, and to prescribe punctuation to be used inside a bibliographic description. ISBD is divided into 8 "areas" of description: title and statement of responsibility; edition; material or type of resource specific; publication, production, distribution, etc; physical description; series; note; and resource identifier and terms of availability. The structure of AACR2 is strongly informed by the ISBD areas of information.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="ISO19115">
+          <dl>
+            <dt class="bold">ISO 19115</dt>
+            <dt><a href="http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail. htm?csnumber=26020">Geographic Information - Metadata</a></dt>
+            <dd>ISO 19115 is an international geospatial metadata standard which was built on the framework of the earlier US FGDC/CSDGM. Its initial version was released in 2003, and a revision was completed in 2009. Plans have been announced to create a US national geospatial meta- data standard as a profile of ISO 19115, and to create version 3.0 of CSDGM as an implementation of that. This work has not yet been finalized.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="KML">
+          <dl>
+            <dt class="bold"><abbr title="Keyhole Markup Language">KML</abbr></dt>
+            <dt><a href="http://code.google.com/apis/kml/documentation/">Keyhole Markup Language</a></dt>
+            <dd>KML is a markup language for geographic data used in the Google Maps and Google Earth services. It can be used to describe placemarks (single points), ground overlays, paths, and polygons. The language allows for 3-D spatial data, including altitude in addition to latitude and longitude. KML's relative simplicity and the availability of the Google Maps API have contributed to quick and fairly widesparead adoption of this language.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="LCC">
+          <dl>
+            <dt class="bold"><abbr title="Library of Congress Classification">LCC</abbr></dt>
+            <dt><a href="http://www.loc.gov/catdir/cpso/lcc.html">Library of Congress Classification</a></dt>
+            <dd>The Library of Congress Classification is used primarily in academic libraries. It is divided into 21 basic classes, each of which start with one or more uppercase letters. Full class numbers use a mixture of letters and numbers, with subtopics offset by a period. Libraries typically append Cutter numbers at the end of LC class numbers to create a full call number for physical shelving of materials.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="LCSH">
+          <dl>
+            <dt class="bold"><abbr title="Library of Congress Subject Headings">LCSH</abbr></dt>
+            <dt><a href="http://authorities.loc.gov">Library of Congress Subject Headings</a></dt>
+            <dd>LCSH is a long-standing controlled vocabulary maintained by the Library of Congress, covering topical subjects, genres, and geographic places among other related areas of study. It is a precoordinated vocabulary, built upon the principle of literary warrant. Libraries can contribute new terms for consideration via the SACO initiative. Despite its function as a controlled vocabulary, LCSH is not a fully enumerated list, allowing the presence of "standard subdivisions" on explicitly authorized terms according to human-readable rules.</dd>
+            <dd>With the development of a new <a href="http://id.loc. gov">service that makes Library of Congress-hosted vocabularies available to machine applications</a>, <abbr title="Library of Congress Subject Headings">LCSH</abbr> and other vocabularies are now more readily available to applications outside the library community and especially outside the cultural heritage community.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="LD">
+          <dl>
+            <dt class="bold"><abbr title="Linked Data">LD</abbr></dt>
+            <dt><a href="http://www.w3.org/DesignIssues/LinkedData.html">Linked Data</a></dt>
+            <dd>Linked data is a broad term that refers to a framework and a set of best practices for exposing data on the Semantic Web and making connections between resources. Linked data implementations are guided by four principles outlined by Tim Berners-Lee in 2006: 1) Use URIs as names for things, 2) Use HTTP URIs so that people can look up those names, 3) When someone looks up a URI, provide useful information, using the standards (RDF, SPARQL), and 4) Include links to other URIs. so that they can discover more things. One of the highest profile uses of linked data in the cultural heritage community is <a href="http:// id.loc.gov">http://id.loc.gov</a>, although that service does not systematically implement the fourth principle of linked data - linking to other things. The records at <a href="http:// id.loc.gov">http:// id.loc.gov</a> point to other records in the same service, but not to data elsewhere on the web. Additional information can be found at <a href="http://linkeddata.org">linkeddata.org</a>.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="MADS">
+          <dl>
+            <dt class="bold"><abbr title="Metadata Authority Description Schema">MADS</abbr></dt>
+            <dt><a href="http://www.loc.gov/standards/mads/">Metadata Authority Description Schema</a></dt>
+            <dd>MADS is a companion to MODS, intended to encode authority data that is referenced by MODS bibliographic records. The structure and design of MADS are heavily influenced by the MARC Authority format. As such, it provides for the encoding of headings and cross references traditionally established by the library community, including personal names, corporate names, name/title entries, title entries, subject, genres, and geographic places. While MADS allows for more of a complete de- scription of an entity than MARC Authority does, it still retains a focus on documenting and justifying choice of headings. MADS elements use the same name as MODS elements whenever feasible. MADS is maintained by the Library of Congress, and its content is managed by the MODS/MADS Editorial Committee.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="MARC">
+          <dl>
+            <dt class="bold"><abbr title="Machine Readable Cataloging">MARC</abbr></dt>
+            <dt><a href="http://www.loc.gov/marc/">Machine Readable Cataloging</a></dt>
+            <dd>MARC was first developed in the late 1960s at the Library of Congress, and represented the first major attempt to encode bibliographic data in machine-readable form. MARC uses a mixture of fixed and variable fields to record information. The variable fields are themselves a mixture of coded and textual data. The MARC format is defined in ISO2709, which prescribes numeric field names that contain alphanumeric subfields. The MARC format in use in the US is known as MARC21. UNIMARC is a variant common in Europe. While there are five formats in the MARC21 suite, the Bibliographic and Authority formats are the most commonly used.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="MARC-Relator-Codes">
+          <dl>
+            <dt class="bold"><abbr title="Machine Readable Cataloging">MARC</abbr> Relator Codes</dt>
+            <dt><a href="http://www.loc.gov/marc/relators/relaterm.html">MARC Relator Codes</a></dt>
+            <dd>The MARC Relator Codes list is provided by the Library of Congress for use in specifying the role of an individual or group in connection with a resource. The list is expressed both in three-letter codes and in full English-language terms. Codes and terms from this list are commonly used in MARC and in MODS.</dd>
+            <dd>In cooperation with the DCMI community, the Library of Congress has developed a version of the MARC relator codes suitable for use in Dublin Core Application Profiles. These may be found at <a href="http://id.loc.gov/vocabulary/relators">http://id.loc.gov/vocabulary/relators</a>.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="MARCXML">
+          <dl>
+            <dt class="bold"><abbr title="MARC in XML">MARCXML</abbr></dt>
+            <dt><a href="http://www.loc.gov/standards/marcxml/">MARC in XML</a></dt>
+            <dd>MARCXML, first released in 2002, is a representation of the ISO2709 MARC format in an XML syntax. MARCXML is designed to be fully interchangeable with MARC21 - records can be moved back and for the between the two formats without any loss of data. The MARCXML Schema, however, allows any 3-number field name and any alphanumeric subfield name, not restricting values to those defined in MARC21. MARCXML is primarily used as an intermediate step between MARC21 and other XML formats, as MARCXML can be converted to other XML formats with XSLT, which is not possible directly from MARC21.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="MathML">
+          <dl>
+            <dt class="bold"><abbr title="Mathematical Markup Language">MathML</abbr></dt>
+            <dt><a href="http://www.w3.org/Math/">Mathematical Markup Language</a></dt>
+            <dd>MathML is a W3C Recommendation for the low-level encoding of mathematical information, with the intention of representing this information on the Web. It is defined by an XML DTD. MathML elements exist both in support of presentation of mathematical data and for the content of the mathematical data itself.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="MEI">
+          <dl>
+            <dt class="bold"><abbr title="Music Encoding Initiative">MEI</abbr></dt>
+            <dt><a href="http://www2.lib.virginia.edu/innovation/mei/">Music Encoding Initiative</a></dt>
+            <dd>MEI is a markup language for Western common music notation. It is strongly inspirted by the structure and design of TEI, and was developed in response to an identified need for a music notation format that facilitates research into the structure of musical corpora. In addition to the full notation encoding, MEI includes a header for bibliographic information about the notation file. MEI is developed and maintained as an XML DTD by Perry Roland at the University of Virginia.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="MESH">
+          <dl>
+            <dt class="bold"><abbr title="Medical Subject Headings">MESH</abbr></dt>
+            <dt><a href="http://www.nlm.nih.gov/mesh/">Medical Subject Headings</a></dt>
+            <dd>MeSH is produced by the US National Library of Medicine for the description of biomedical journal literature, books, and other formats collected by the Library. It is also used for subject indexing in the PubMED database. The MeSH vocabulary contains a full syndetic structure of broader, narrower, and "use for" terms. The full vocabulary is available online for individual searches and downloads in XML and ASCII formats.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="METS">
+          <dl>
+            <dt class="bold"><abbr title="Metadata Encoding and Transmission Standard">METS</abbr></dt>
+            <dt><a href="http://www.loc.gov/standards/mets/">Metadata Encoding and Transmission Standard</a></dt>
+            <dd>METS is an XML metadata standard intended to package all the information needed to represent a complex object, including both primary files and metadata that describes them. It defines its own structure for representing files and the relationships between them, and allows embedding or referencing descriptive, technical, rights, source, and digital provenance metadata defined by other schemas. METS has various levels of support in digital asset management systems, including DigiTool, Greenstone, and the Archivists' Toolkit. This standard grew out of early work on representing complex digital objects by the Making of America II project. METS is maintained at the Library of Congress and through a volunteer Editorial Board.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="METS-Rights">
+          <dl>
+            <dt class="bold"><abbr title="Metadata Encoding and Transmission Standard">METS</abbr> Rights</dt>
+            <dt><a href=""><abbr title="Metadata Encoding and Transmission Standard">METS</abbr> Rights Declaration Schema</a></dt>
+            <dd>METS Rights was developed by the METS Editorial Board as a simple and easy to implement rights schema, as an alternative or temporary solution before implementing a more comprehensive rights metadata format. It focuses on a simple structure for access and ownership rights for locally-controlled digital resources.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="MIX">
+          <dl>
+            <dt class="bold"><abbr title="Metadata for Images in XML">MIX</abbr></dt>
+            <dt><a href="http://www.loc.gov/standards/mix/">NISO Metadata for Images in XML Schema</a></dt>
+            <dd>MIX is an XML representation of the Data Dictionary - Technical Metadata for Digital Still Images (ANSI/ NISO Z39.87-2006). As a technical metadata format for still images, MIX can be used to describe images born digitally such as those taken with digital cameras, and images that have been reformatted from analog originals such as scans of photographs or pages of text. The data dictionary on which MIX is based includes four basic areas of metadata: basic digital object information, basic image information, image caputure metadata, and image assessment metadata. The MIX XML Schema is maintained by the Library of Congress.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="MO">
+          <dl>
+            <dt class="bold"><abbr title="Music Ontology">MO</abbr></dt>
+            <dt><a href="http://musicontology.com/">Music Ontology</a></dt>
+            <dd>The Music Ontology is a framework for the description of musical materials intended to push these descriptions to the Semantic Web. It is divided into three levels allowing incremental increases in complexity. Level 1 is for basic descriptive information such as tracks, artists, and releases. Level 2 adds the music creation workflow such as arrangement, performance, and recording. Level 3 adds support for complex events such as timelines and relationships between performances. The Music Ontology uses FRBR principles to separate a musical Work from its Manifestations. It is expressed in RDF/OWL.</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="standard" id="MODS">
+          <dl>
+            <dt class="bold"><abbr title="Metadata Object Description Schema">MODS</abbr></dt>
+            <dt><a href="http://www.loc.gov/standards/mods/">Metadata Object Description Schema</a></dt>
+            <dd>MODS was developed by the Library of Congress Network Development and MARC Standards Office as a MARC-compatible metadata format expressed in XML and using language-based element names. MODS takes a similar approach to resource description as MARC, with some rearranging, removing, and adding of data elements. MODS is frequently used as a descriptive metadata structure standard inside METS metadata wrappers for storage or exchange of digital objects.</dd>
+          </dl>
+        </div>
+        <div class="standard" id="MPEG-21-DIDL">
+          <dl>
+            <dt class="bold"><abbr title="MPEG-21 Digital Item Description Language">MPEG-21 DIDL</abbr></dt>
+            <dt><a href="http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail. htm?csnumber=41112">MPEG-21 Digital Item Description Language</a></dt>
+            <dd>DIDL is a component of the ISO/IEC 21000-2:2005 standard MPEG-21, and as such carries the same stan- darization weight MPEG-2, MPEG-4, and MPEG-7 carry. DIDL is a packaging format for digital objects, defining a data model for representing both content files and their metadata, and an XML wrapper format that conforms to the DIDL data model. The DIDL data model describes Containers, which can have Items, which group Components, which group individual datastreams called Resources. Descriptors apply to Containers, Items, or Resources. While MPEG21-DIDL is much less well known in the digital library community than METS, there are some high-profile implementations, such as that at the Los Alamos National Laboratory Digital Library.</dd>
+          </dl>
+        </div>
+      </div>
+ 
+    </main>
+
+    <!-- 'metarow' to generate a new row -->
+
+    <footer>
+      &lt;/&gt;
+      <!-- maybe CREATIVE COMMONS logos vs the usual button
+      <ul>
+        <li><img src="img/cc.svg" alt=""></li>
+        <li><img src="img/by.svg" alt=""></li>
+        <li><img src="img/sa.svg" alt=""></li>
+        <li><img src="img/remix.svg" alt=""></li>
+      </ul>
+       -->
+    </footer>
+
+  </body>
+
+</html>
