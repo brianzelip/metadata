@@ -163,7 +163,6 @@ header {
     max-width: 1500px;
     margin: 0 auto;
     table-layout: fixed;
-    border-bottom: 1px dotted rgba(0,0,0,.5);
   }
 }
 
