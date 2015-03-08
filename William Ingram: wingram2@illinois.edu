@@ -1,0 +1,20 @@
+William Ingram: wingram2@illinois.edu
+
+production server: OJS ssh katla.cites.illinois.edu
+
+dev server: OJS test server =   katla-dev.cites.illinois.edu
+
+user: ideals-ojs
+
+
+su - ideals-ojs
+
+'then it will ask for the same password again after the su command'
+
+
+
+LILYPAD
+-because of the need to register my IP address, and on my laptop I am always signing on to IllinoisNet which creates a dynamic IP everytime, I should use Lilypad to log in from this laptop:
+
+hostname: tesseract.cites.uiuc.edu
+username: bzelip
