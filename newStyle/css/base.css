@@ -1,0 +1,274 @@
+/*
+ * Basscss Base
+ *
+ * Remove or comment out unneeded modules and import your own files.
+ * Adjust global media queries and variables below.
+ *
+ */
+
+/* Basscss Modules */
+
+body {
+  margin: 0;
+}
+
+/* Basscss Base Forms */
+
+/* Basscss Base Buttons */
+
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* Basscss Base Tables */
+
+/* Basscss Base Typography */
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  line-height: 1.5;
+  font-size: 100%;
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* Basscss Utility Layout */
+
+/* Basscss Utility Typography */
+
+/* Basscss Utility White Space */
+
+.mt3 {
+  margin-top: 2rem;
+}
+
+.p1 {
+  padding: .5rem;
+}
+
+.p3 {
+  padding: 2rem;
+}
+
+/* Basscss Utility Responsive States */
+
+/* Basscss Positions */
+
+/* Basscss UI Utility Button Sizes */
+
+/* Basscss Grid */
+
+/*
+ * Basscss Flex Object
+ */
+
+/* Basscss Color Base */
+
+/*
+
+   COLOR VARIABLES
+
+   - Cool
+   - Warm
+   - Gray Scale
+
+*/
+
+:root {
+  /* Cool */
+  /* Warm */
+  /* Gray scale */
+}
+
+body {
+  color: #222;
+  background-color: white;
+}
+
+/* Basscss Color Forms */
+
+/* Basscss Color Forms Dark */
+
+.field-dark::-moz-placeholder {
+  color: rgba(255, 255, 255, .75);
+}
+
+.field-dark:-ms-input-placeholder {
+  color: rgba(255, 255, 255, .75);
+}
+
+.field-dark::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, .75);
+}
+
+.field-dark::placeholder {
+  color: rgba(255, 255, 255, .75);
+}
+
+/* Basscss Input Range */
+
+.range-light::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  position: relative;
+  width: .5rem;
+  height: 1.25rem;
+  border-radius: 3px;
+  background-color: currentcolor;
+  cursor: pointer;
+  margin-top: -0.5rem;
+}
+
+/* Touch screen friendly pseudo element */
+
+.range-light::-webkit-slider-thumb:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -0.5rem;
+  left: -0.875rem;
+  width: 2.25rem;
+  height: 2.25rem;
+  opacity: 0;
+}
+
+.range-light::-moz-range-thumb {
+  width: .5rem;
+  height: 1.25rem;
+  border-radius: 3px;
+  border-color: transparent;
+  border-width: 0;
+  background-color: currentcolor;
+  cursor: pointer;
+}
+
+.range-light::-webkit-slider-runnable-track {
+  height: 0.25rem;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.range-light::-moz-range-track {
+  height: 0.25rem;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.range-light:focus::-webkit-slider-thumb {
+  outline: none;
+  border: 0;
+  box-shadow: 0 0 1px 2px currentcolor;
+}
+
+.range-light:focus::-moz-range-thumb {
+  outline: none;
+  border: 0;
+  box-shadow: 0 0 1px 2px currentcolor;
+}
+
+/* Basscss Color Tables */
+
+/* Basscss Button Outline */
+
+/* Basscss Button Transparent */
+
+/* Basscss Background Images */
+
+/* Basscss Color Borders */
+
+/* Basscss Colors */
+
+/* Color */
+
+/* Background Color */
+
+/* Border Color */
+
+/* Opacity */
+
+/*
+
+   COLOR VARIABLES
+
+   - Cool
+   - Warm
+   - Gray Scale
+
+*/
+
+:root {
+  /* Cool */
+  /* Warm */
+  /* Gray scale */
+}
+
+/* Optional Modules */
+
+/* Basscss Responsive White Space */
+
+/* Basscss Utility Headings */
+
+/* Basscss UI Utility Groups */
+
+/* Basscss Table Object */
+
+/* Basscss Color Buttons */
+
+/* Basscss Button Blue */
+
+/* Basscss Button Blue Outline */
+
+/* Basscss Button Red */
+
+/* Basscss Button Light Gray */
+
+.button-light-gray:is-active {
+  box-shadow: inset 0 0 0 32px rgba(0, 0, 0, .125), inset 0 2px 3px 0 rgba(0, 0, 0, .25);
+}
+
+/* Basscss Button Nav Light */
+
+/* Basscss Button Nav Dark */
+
+/* Basscss Button Blue Outline */
+
+/* Basscss Button Gray */
+
+.button-gray:is-active {
+  box-shadow: inset 0 0 0 32px rgba(0, 0, 0, .125), inset 0 2px 3px 0 rgba(0, 0, 0, .25);
+}
+
+/* Basscss Button Light Gray */
+
+.button-light-gray:is-active {
+  box-shadow: inset 0 0 0 32px rgba(0, 0, 0, .125), inset 0 2px 3px 0 rgba(0, 0, 0, .25);
+}
+
+/* Basscss Button Nav Light */
+
+/* Basscss Button Nav Dark */
+
+/* Basscss Button Nav Tab */
+
+/* Basscss Highlight */
+
+:root {
+  /* Mapped colors */
+}
+
+/* Example custom file import */
+
+/* Custom media queries */
+
+/* Variables */
+
+:root {
+  /* Grid container max-width */
+  /* Colors */
+}
